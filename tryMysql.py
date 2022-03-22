@@ -3,8 +3,8 @@ import cv2
 
 connection = pymysql.connect(host='localhost',
                              database='create_carrefour_table',
-                             user='root',
-                             password='5985593')
+                             user='account',
+                             password='cipher')
 
 mycursor = connection.cursor()
 
